@@ -1,0 +1,37 @@
+{
+  "name": "iobroker.my_widgets",
+  "version": "0.0.1",
+  "description": "My own custom widgets",
+  "author": {
+    "name": "chris",
+    "email": "chris@test.com"
+  },
+  "homepage": "https://github.com/chris/ioBroker.my_widgets",
+  "license": "MIT",
+  "keywords": [
+    "ioBroker",
+    "template",
+    "Smart Home",
+    "home automation"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chris/ioBroker.my_widgets"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@iobroker/testing": "^2.2.0",
+    "@types/gulp": "^4.0.6",
+    "axios": "^0.19.2",
+    "gulp": "^4.0.2"
+  },
+  "main": "widgets/my_widgets.html",
+  "scripts": {
+    "test:package": "mocha test/package --exit",
+    "test": "npm run test:package"
+  },
+  "bugs": {
+    "url": "https://github.com/chris/ioBroker.my_widgets/issues"
+  },
+  "readmeFilename": "README.md"
+}

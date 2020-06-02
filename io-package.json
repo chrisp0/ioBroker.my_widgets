@@ -1,0 +1,80 @@
+{
+    "common": {
+        "name": "my_widgets",
+        "version": "0.0.1",
+        "news": {
+            "0.0.1": {
+                "en": "initial release",
+                "de": "Erstveröffentlichung",
+                "ru": "Начальная версия",
+                "pt": "lançamento inicial",
+                "nl": "Eerste uitgave",
+                "fr": "Première version",
+                "it": "Versione iniziale",
+                "es": "Versión inicial",
+                "pl": "Pierwsze wydanie",
+                "zh-cn": "首次出版"
+            }
+        },
+        "title": "myWidgets",
+        "titleLang": {
+            "en": "myWidgets",
+            "de": "myWidgets",
+            "ru": "myWidgets",
+            "pt": "myWidgets",
+            "nl": "myWidgets",
+            "fr": "myWidgets",
+            "it": "myWidgets",
+            "es": "myWidgets",
+            "pl": "myWidgets",
+            "zh-cn": "myWidgets"
+        },
+        "desc": {
+            "en": "My own custom widgets",
+            "de": "Meine eigenen benutzerdefinierten Widgets",
+            "ru": "Мои собственные виджеты",
+            "pt": "Meus próprios widgets personalizados",
+            "nl": "Mijn eigen aangepaste widgets",
+            "fr": "Mes propres widgets personnalisés",
+            "it": "I miei widget personalizzati",
+            "es": "Mis propios widgets personalizados",
+            "pl": "Moje własne widżety",
+            "zh-cn": "我自己的自定义小部件"
+        },
+        "authors": [
+            "chris <chris@test.com>"
+        ],
+        "keywords": [
+            "ioBroker",
+            "template",
+            "Smart Home",
+            "home automation"
+        ],
+        "license": "MIT",
+        "platform": "Javascript/Node.js",
+        "main": "main.js",
+        "icon": "my_widgets.png",
+        "enabled": true,
+        "extIcon": "https://raw.githubusercontent.com/chris/ioBroker.my_widgets/master/admin/my_widgets.png",
+        "readme": "https://github.com/chris/ioBroker.my_widgets/blob/master/README.md",
+        "loglevel": "info",
+        "restartAdapters": [
+            "vis"
+        ],
+        "localLink": "%web_protocol%://%ip%:%web_port%/vis/edit.html",
+        "onlyWWW": true,
+        "noConfig": true,
+        "singleton": true,
+        "type": "visualization-widgets",
+        "mode": "once",
+        "dependencies": [
+            "vis"
+        ]
+    },
+    "native": {
+        "option1": true,
+        "option2": "42"
+    },
+    "objects": [],
+    "instanceObjects": []
+}
